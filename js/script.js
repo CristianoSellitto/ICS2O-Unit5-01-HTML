@@ -29,6 +29,9 @@ function onButtonClick() {
   console.log("The current random number is " + randomnumber + "!")
 }
 
+/**
+ * Updates the user's selected number to the number currently in the slider.
+ */
 function updateNumber() {
   number = document.getElementById("slider").value
   document.getElementById("slider-number").innerHTML = "<h4>Selected Number: " + number + "</h4>"
