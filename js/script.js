@@ -17,7 +17,7 @@ var randomnumber = Math.floor(Math.random() * 6) + 1;
 var number = 1
 
 /**
- * Alerts "Hello, World!"
+ * Sees if the number the user chose is equal to the random number and reassigns the random number.
  */
 function onButtonClick() {
   if (number == randomnumber) {
